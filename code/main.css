@@ -1,0 +1,169 @@
+* {
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+body{
+
+}
+
+h1{
+}
+
+#chart_area{
+}
+
+.slider{
+	width: 20rem;
+	position: absolute;
+	height:10px;
+    left:20px;
+}
+
+.region_cb#SSA{
+	position: absolute;
+	height:50px;
+	top: 628px;
+    left:480px;
+}
+
+.box_name#SSA{
+	position: absolute;
+	top: 645px;
+    left:350px;
+	color:black;
+}
+
+.region_cb#SA{
+	position: absolute;
+	height:50px;
+	top: 628px;
+    left:580px;
+}
+
+.box_name#SA{
+	position: absolute;
+	top: 645px;
+    left:505px;
+	color:#3366ff;
+}
+
+.region_cb#MENA{
+	position: absolute;
+	height:50px;
+	top: 628px;
+    left:780px;
+}
+
+.box_name#MENA{
+	position: absolute;
+	top: 645px;
+    left:600px;
+	color:#ff9900;
+}
+	
+.region_cb#A{
+	position: absolute;
+	height:50px;
+	top: 628px;
+    left:860px;
+}
+
+.box_name#A{
+	position: absolute;
+	top: 645px;
+    left:800px;
+	color:#ff6666;
+}
+
+.region_cb#EAP{
+	position: absolute;
+	height:50px;
+	top: 628px;
+    left:1005px;
+}
+
+.box_name#EAP{
+	position: absolute;
+	top: 645px;
+    left:880px;
+	color:#33cc33;
+}
+
+.region_cb#ECA{
+	position: absolute;
+	height:50px;
+	top: 628px;
+    left:1175px;
+}
+
+.box_name#ECA{
+	position: absolute;
+	top: 645px;
+    left:1025px;
+	color:#66ccff;
+}
+
+.region_cb#LAC{
+	position: absolute;
+	height:50px;
+	top: 628px;
+    left:1380px;
+}
+
+.box_name#LAC{
+	position: absolute;
+	top: 645px;
+    left:1200px;
+	color:#009933;
+}
+
+.region_cb#W{
+	position: absolute;
+	height:50px;
+	top: 628px;
+    left:1445px;
+}
+
+.box_name#W{
+	position: absolute;
+	top: 645px;
+    left:1400px;
+	color:#FF1493;
+}
+
+.Sub-Saharan Africa{
+	position: absolute;
+	height:10px;
+    left:50px;
+}
+
+.clear {
+clear: both;
+}
+
+text {
+  font: 20px "Times New Roman", Georgia, Serif;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.label {
+  fill: #777;
+}
+
+.year.label {
+  font: 500 196px "Helvetica Neue";
+  fill: #ddd;
+}
+
+.year.label.active {
+  fill: #aaa;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+  cursor: ew-resize;
+}

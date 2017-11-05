@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Population ageing for the last 50 years</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body background="fond.jpg">
+
+    <h1>Population ageing for the last 50 years</h1>
+	
+
+    <p id="chart_area"></p>
+	
+	<input type="range" name="range" class="slider" id="year_slider" value="1960" min="1960" max="2015" step="1" ><br>
+	
+    <input type="checkbox" name="region" class="region_cb" id="SSA" value="Sub-Saharan Africa" checked="checked" > 
+	<label class="box_name" id="SSA">Sub-Saharan Africa</label><br>
+    <input type="checkbox" name="region" class="region_cb" id="SA" value="South Asia" checked="checked"> 
+	<label class="box_name" id="SA">South Asia</label><br>
+    <input type="checkbox" name="region" class="region_cb" id="MENA" value="Middle East & North Africa" checked="checked"> 
+	<label class="box_name" id="MENA">Middle East & North Africa</label><br>
+    <input type="checkbox" name="region" class="region_cb" id="A" value="America" checked="checked"> 
+	<label class="box_name" id="A">America</label><br>
+    <input type="checkbox" name="region" class="region_cb" id="EAP" value="East Asia & Pacific" checked="checked"> 
+	<label class="box_name" id="EAP">East Asia & Pacific</label><br>
+    <input type="checkbox" name="region" class="region_cb" id="ECA" value="Europe & Central Asia" checked="checked"> 
+	<label class="box_name" id="ECA">Europe & Central Asia</label><br>
+	<input type="checkbox" name="region" class="region_cb" id="LAC" value="Latin America & Caribbean" checked="checked"> 
+	<label class="box_name" id="LAC">Latin America & Caribbean</label><br>
+	<input type="checkbox" name="region" class="region_cb" id="W" value="World" checked="checked"> 
+	<label class="box_name" id="W" >World</label><br>
+
+
+
+
+    <script src="d3.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
+
